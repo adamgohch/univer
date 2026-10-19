@@ -1,0 +1,17 @@
+{
+  "name": "zorel-univer-adaptation",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test univer-model.test.mjs"
+  },
+  "dependencies": {
+    "@univerjs/presets": "1.1.0",
+    "@univerjs/preset-sheets-core": "1.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
